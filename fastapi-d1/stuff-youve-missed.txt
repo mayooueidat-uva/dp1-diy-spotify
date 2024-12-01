@@ -1,0 +1,9 @@
+2. setting up connection string (all steps) 
+^ also, did you set up fastapi in the right way? youve missed a lot of class. 
+5. you left off at: create a query with a fastapi route/endpoint
+
+
+this is helpful: https://github.com/uvasds-systems/dp1-diy-spotify/blob/main/SQL-PY.md
+
+you also might want to view the working version of the fastapi thingy: https://github.com/nmagee/fastapi-demo/blob/dp1/app/main.py
+if there's anything that's here that needs to be on yours, you need to fix it. 
