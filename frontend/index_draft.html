@@ -36,8 +36,8 @@
         success: function(data) {
           for (var i = 0; i < data.length; i++) {
             $("#player").append("<img src='" + data[i].image + "' width='100' height='100' style='float:left;margin:10px;' />");
-            $("#player").append("<h3 style="color:#ffffff;font-family:'Space Mono', sans-serif;>" + data[i].title + "</h3>");
-            $("#player").append("<p style="color:#ffffff;font-family:'Space Mono', sans-serif;>" + data[i].artist + " | <i>" + data[i].album + "</i> | " + data[i].year + " | " + data[i].genre + "</p>");
+            $("#player").append("<h3 style='color:#ffffff;font-family:"Space Mono", sans-serif;'>" + data[i].title + "</h3>");
+            $("#player").append("<p style='color:#ffffff;font-family:"Space Mono", sans-serif;'>" + data[i].artist + " | <i>" + data[i].album + "</i> | " + data[i].year + " | " + data[i].genre + "</p>");
             $("#player").append("<audio controls><source src='" + data[i].file + "' type='audio/mpeg'></audio>");
             $("#player").append("<hr size=1 /><br>");
           }
