@@ -1,7 +1,11 @@
 {
   "title": "Sounds of Life",
   "album": "Hold Your Colour",
+<<<<<<< HEAD
   "artist": "Pendulum",
+=======
+  "artist": "Pendulum", "Jasmine Yee",
+>>>>>>> a37cf0ffdc231687a81203e853ec5e7bbe0c199d
   "genre": 8,
   "year": 2007
 }
